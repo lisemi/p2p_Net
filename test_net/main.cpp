@@ -14,7 +14,7 @@ int main(int argc,char* argv[]){
     uint32_t port=atoi(arg.c_str());
     printf("%d\n",port);
 
-    tcp::endpoint server_endp(address_v4::from_string("127.0.0.1"),port);
+    tcp::endpoint server_endp(address_v4::from_string("106.54.36.143"),port);
 
     //s.connect(server_endp);
     s->async_connect(server_endp,[](boost::system::error_code ec){

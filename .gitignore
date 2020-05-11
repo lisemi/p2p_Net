@@ -1,0 +1,14 @@
+#dir
+build
+Debug
+debug
+Release
+release
+X64
+x64
+
+*.vcxproj
+*.filters
+.*.swp
+*.o
+*.log
